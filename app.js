@@ -2,7 +2,7 @@ const DEMO = {
   video:{
     src:"assets/video/demo.mp4",
     title:"Shot Analysis",
-    stamp:"Shot Analysis",
+    stamp:"#1st shot video",
     meta:"18/1/2026 • 7:23 PM"
   },
 
@@ -22,21 +22,37 @@ const DEMO = {
 
   feedback:`1. Shot Mechanics
 
-The elbow reaches full extension at release (175°), showing clean follow-through. The legs are fully extended at 170°, meaning the ball is released at the peak of power generation. Release height remains solid at 2.21 m.
+Elbow reaches full extension at 175° at release — textbook arm snap and clean follow-through.
+Knees load at ~138° and extend fully to 170°, with the ball released exactly at peak leg extension. No energy leak.
+Release height is 2.21 m, creating a high visual window and making contests ineffective.
+One-motion shot with a smooth set point and fast pickup — efficient and repeatable.
 
 2. Ball Trajectory
 
-The 57° release angle creates a very steep 61° entry angle. This produces a soft drop but limits side-to-side margin for error.
+Release angle: 57°
+Entry angle: 61°
+
+This is a very steep flight path. The ball approaches the rim with near-ideal geometry, making the rim play bigger.
+The parabola is clean, apex sits in the optimal window, and the backspin stabilizes the ball for a soft drop and shooter’s roll.
 
 3. Outcome
 
-The shot was made, driven by clean mechanics, good timing, and touch.
+Shot is made.
+Driven by perfect timing between lower body (170° knee extension) and upper body (175° elbow snap).
+No arm-push, no steering — pure kinetic chain.
 
 4. Overall Assessment
 
-Mechanically sound shot with good sequencing, but the arc is higher than ideal for consistent range.
+Mechanically elite jumper with high release, clean sequencing, and optimal geometry.
+The only variable to monitor is maintaining a 57° arc under fatigue or deep-range conditions, where 45–50° is often more sustainable.
 
-Key Cue: Keep the timing — flatten the arc slightly.`,
+Coach Grade
+
+A+
+
+This is a pro-level mechanical base. High release, full extension, perfect timing. This form will translate at game speed.
+
+Key Cue: Keep the timing — flatten the arc slightly for deep range.`,
 
   note:"Demo only. Values and visuals are manually inserted from the pipeline."
 };
@@ -84,4 +100,5 @@ function render(){
 }
 
 render();
+
 
