@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Basketball Lab</title>
+  <link rel="icon" type="image/jpeg" href="assets/img/basketball.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="demoLeft">DEMO</div>
+
+    <div class="brand bigTitle">
+      <span class="ai">AI</span>
+      <span class="basketball">Basketball Lab</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="panel videoPanel">
+        <div class="videoHeader">
+          <div class="videoTitle" id="videoTitle">Trajectory overlay on release frame</div>
+        </div>
+
+        <div class="videoShell">
+          <video id="demoVideo" class="demoVideo" controls playsinline preload="metadata"></video>
+          <div class="overlayBadge" id="shotStamp">Shot Analysis</div>
+          <div class="overlayMeta" id="shotMeta">18/1/2026 • 7:23 PM</div>
+        </div>
+      </div>
+
+      <div class="side">
+        <div class="grid" id="metricGrid"></div>
+      </div>
+    </section>
+
+    <section class="lower">
+      <div class="chartsWrap">
+        <div class="chartsLeft">
+          <div class="panel chartPanel">
+            <div class="panelTitle">Elbow Angle</div>
+            <div class="imgShell">
+              <img id="chart1Img" />
+            </div>
+          </div>
+
+          <div class="panel chartPanel">
+            <div class="panelTitle">Knee Angle</div>
+            <div class="imgShell">
+              <img id="chart2Img" />
+            </div>
+          </div>
+        </div>
+
+        <div class="panel releasePanel">
+          <div class="panelTitle">Release</div>
+          <div class="imgShell tallShell">
+            <img id="releaseImg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="panel feedbackPanel fullWidth">
+        <div class="panelTitle">AI Coach Feedback</div>
+
+        <div class="feedback">
+          <div class="feedbackPreview" id="feedbackPreview"></div>
+
+          <button class="showMoreBtn" id="toggleFeedback" type="button">
+            Show more
+          </button>
+
+          <div class="feedbackFull hidden" id="feedbackFull"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footerNote">
+      <div class="note" id="noteText"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
