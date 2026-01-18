@@ -1,7 +1,7 @@
 const DEMO = {
   video:{
     src:"assets/video/demo.mp4",
-    title:"Trajectory overlay on release frame",
+    title:"Shot Analysis",
     stamp:"Shot Analysis",
     meta:"18/1/2026 • 7:23 PM"
   },
@@ -84,3 +84,4 @@ function render(){
 }
 
 render();
+
